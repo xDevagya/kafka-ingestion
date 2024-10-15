@@ -28,7 +28,7 @@ def produce(topic, config):
 def main():
   config = read_config()
   topic = "kafka-ingestion"
-
+  # run producer code
   produce(topic, config)
 
 main()
